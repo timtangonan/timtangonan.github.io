@@ -55,6 +55,10 @@ h3 {
   align-items: center;
 }
 
+.intro .socials .social-item a {
+  font-size: 0.9rem;
+}
+
 .intro .socials .social-item + .social-item {
   margin-top: 0.5em;
 }
