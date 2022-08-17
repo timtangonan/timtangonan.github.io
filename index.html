@@ -5,11 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tim Tangonan's Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <section class="hero">
-      <h1>Tim Tangonan</h1>
-      <h2>Front-end Developer</h2>
-    </section>
+    <div class="container">
+      <section class="hero">
+        <div>
+          <h1>Tim Tangonan</h1>
+          <h2>Front-end Developer</h2>
+        </div>
+      </section>
+      <section class="intro">
+        <p>Hi! I'm Tim.</p>
+        <p>
+          I love building web-based user interfaces using modern front-end
+          technologies.
+        </p>
+        <article class="socials">
+          <div class="social-item">
+            <img src="./assets/iconmonstr-github-1-64.png" alt="Github logo" />
+            <a
+              href="https://github.com/timtangonan"
+              target="_blank"
+              rel="noopener noreferrer"
+              >timtangonan</a
+            >
+          </div>
+          <div class="social-item">
+            <img
+              src="./assets/iconmonstr-twitter-4-64.png"
+              alt="Twitter logo"
+            />
+            <a
+              href="https://twitter.com/timtangonan"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@timtangonan</a
+            >
+          </div>
+        </article>
+      </section>
+      <section class="projects">
+        <p>Here are some websites I created:</p>
+        <article class="card">
+          <a
+            href="https://pen-and-paper.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-content">
+              <h3>Pen and Paper</h3>
+              <p class="link-text">https://pen-and-paper.vercel.app</p>
+              <p class="project-description">
+                An sample e-commerce website that uses <em>Gatsby.js</em> for
+                the framework, <em>TailwindCSS</em> for styling, and
+                <em>Snipcart</em> for e-commerce functionality. It also
+                leverages the image processing features of <em>Cloudinary</em>.
+                Hosted on <em>Vercel</em>.
+              </p>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a
+            href="https://reading-list-92431.web.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-content">
+              <h3>Reading List</h3>
+              <p class="link-text">https://reading-list-92431.web.app</p>
+              <p class="project-description">
+                An interactive list of books that are on my “to-read” list made
+                with <em>React.js</em>. Back-end functionality done using
+                <em>Firebase</em>.
+              </p>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a
+            href="https://tims-travel-bucket-list.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-content">
+              <h3>Travel Bucketlist</h3>
+              <p class="link-text">
+                https://tims-travel-bucket-list.onrender.com
+              </p>
+              <p class="project-description">
+                A visual list of my personal travel bucketlist. The page is
+                hosted on <em>Render</em>. Content is powered by
+                <em>Hygraph</em> — formerly <em>GraphCMS</em> — which primarily
+                uses <em>GraphQL</em> to interact with the API. Styled with
+                <em>TailwindCSS</em>.
+              </p>
+            </div>
+          </a>
+        </article>
+        <article class="card">
+          <a
+            href="https://bridgetangonan.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="card-content">
+              <h3>My Mom's Personal Blog</h3>
+              <p class="link-text">https://bridgetangonan.com</p>
+              <p class="project-description">
+                Created a website for my mother where she can document and share
+                her thoughts. Front-end framework used for the project is
+                <em>Next.js</em>. Styled using <em>TailwindCSS</em>. Content
+                management system provided by <em>Contentful</em>.
+              </p>
+            </div>
+          </a>
+        </article>
+      </section>
+      <section class="downloads">
+        <div class="button-container">
+          <button>
+            <a href="./docs/Tim Tangonan - CV.pdf" download="Tim Tangonan - CV"
+              >Download C.V.</a
+            >
+          </button>
+          <button>
+            <a
+              href="./docs/Résumé - Tim Tangonan.pdf"
+              download="Tim Tangonan - Résumé"
+              >Download Résumé</a
+            >
+          </button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

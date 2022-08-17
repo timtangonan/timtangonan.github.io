@@ -1,0 +1,137 @@
+@import "./reset.css";
+
+:root {
+  --primary-color: steelblue;
+  --secondary-color: deeppink;
+  --text-color: #333;
+}
+
+body {
+  background: linear-gradient(
+    333deg,
+    rgba(70, 130, 180, 0.5) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+  font-family: "Karla", sans-serif;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 64px;
+  color: var(--primary-color);
+  font-weight: 700;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.container {
+  padding: 2em;
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.hero {
+  min-height: 280px;
+  display: grid;
+  place-items: center;
+}
+
+.intro .socials {
+  margin-top: 1em;
+}
+
+.intro .socials .social-item {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.intro .socials .social-item + .social-item {
+  margin-top: 0.5em;
+}
+
+.intro .socials .social-item img {
+  max-width: 24px;
+}
+
+.intro .socials .social-item a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.projects {
+  margin-top: 3em;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-block: 1em;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  transition-duration: 0.5s;
+}
+
+.card-content {
+  padding: 2em 3em;
+}
+
+.card-content h3 {
+  color: var(--primary-color);
+}
+
+.card-content .link-text {
+  color: var(--secondary-color);
+  opacity: 0.8;
+}
+
+.card-content .project-description {
+  color: var(--text-color);
+  margin-top: 1em;
+}
+
+.card-content em {
+  color: var(--secondary-color);
+  font-style: normal;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.downloads {
+  margin-top: 3em;
+}
+
+.downloads button + button {
+  margin-left: 1em;
+}
+
+.downloads button {
+  all: unset;
+  background-color: var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.downloads button:hover {
+  transform: scale(1.01);
+}
+
+.downloads button a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0.4em 1.2em;
+}
